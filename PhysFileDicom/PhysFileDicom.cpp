@@ -12,6 +12,12 @@ using namespace std;
 
 
 
+
+// OFIs
+// Add optional delimiter to input parameters. Would allow us to handle csv files as well
+// Allow passing of group naming convention. - Not sure how we make this clean.
+// Allow setting of dicom group.
+
 vector<float> getFileData(boost::filesystem::path pt, char delimiter)
 {
     //probably need some safety checks in here
