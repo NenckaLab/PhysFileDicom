@@ -54,9 +54,9 @@ bool ProcessCommandLine(const int argc, const char* const argv[], boost::filesys
     return 0;
 }
 
-/*****************************************************************
- ** Main function that calls the specific recon pipeline to run **
- ******************************************************************/
+/********************
+ ** Main function  **
+ ********************/
 int main(const int argc, const char* const argv[])
 {
     fs::path dicoms;
